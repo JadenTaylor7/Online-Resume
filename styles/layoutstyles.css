@@ -1,0 +1,68 @@
+/* meant for resume.html */
+body{
+    /* background-color:darkslategrey; */
+    background-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.common {
+    /* background-color: lightgray; */
+    border: solid white;
+    position: absolute; /* This means they will ignore other boxes and just overlap each other */
+}
+
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 90px;
+    z-index: 2; /*the lower the index, will be sent to back*/
+    border-bottom: solid 1px darkslategrey;
+    text-align: center;
+}
+
+
+.leftMenu {
+    top: 104px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px darkslategrey;
+    position: fixed;
+}
+
+
+.mainBody {
+    top: 104px;
+    left: 114px;
+    right: 184px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+
+.rightMenu {
+    top: 104px;
+    right: 5px;
+    width: 170px;
+    bottom: 39px;
+    border-left: solid 1px darkslategrey;
+    padding-left: 5px;
+    position: fixed;
+}
+
+
+.footer {
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    bottom: 25px; /* 39-14 = 25 */
+    text-align: center;
+    position: fixed;
+    border-top: solid 1px darkslategrey;
+    background-color:white;
+    padding-bottom: 0px;
+}

@@ -8,83 +8,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaden's Resume</title>
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/layoutstyles.css">
 </head>
 
 
 
 <body>
-    <!-- Website pages -->
-    <a href="../index.html" title="link to home page" id="top">Home</a> |
-    <a href="#" title="link to master resume">Master Resume</a> |
-    <a href="about me.html" title="link to about me">About me</a> <br><br>
+    <div class="common header">
+        <!-- Website pages -->
+        <a href="../index.html" title="link to home page" id="top">Home</a> |
+        <a href="#" title="link to master resume">Master Resume</a> |
+        <a href="about me.html" title="link to about me">About me</a> <br><br>
+    </div>
 
+    <div class="common leftMenu">
+        <!-- Table of contents links -->
+        <a href="#skills">Skills &<br> Certifications</a><br><br>
+        <a href="#work">Work Experience</a><br><br>
+        <a href="#edu">Education</a><br><br>
+        <a href="#interests">Interests</a><br><br>
+    </div>
 
-    <!-- Table of contents links -->
-     <a href="#skills">Skills & Certifications</a><br>
-     <a href="#work">Work Experience</a><br>
-     <a href="#edu">Education</a><br>
-     <a href="#interests">Interests</a><br>
-
-
-    <!-- Webpage info -->
-    <h1>Jaden Taylor</h1>
-    Email: jtjadent@gmail.com Phone: 386-287-5381 <br> 
-    <img alt="LinkedIn logo" src="../images/LinkedIn logo.png" width="18"> 
-        <a href="https://www.linkedin.com/in/jaden-taylor-329299213/" target="_blank" title="LinkedIn link">
-            Jaden Taylor | LinkedIn 
-        </a>
-    <img alt="Facebook logo" src="../images/Facebook logo.png" width="18"> 
-        <a href="https://www.facebook.com/jaden.taylor.982" target="_blank" title="Facebook link">
-            Jaden Taylor | Facebook
-        </a>
-    <img alt="GitHub logo" src="../images/GitHub logo.png" width="18"> 
-        <a href="https://github.com/JadenTaylor7" target="_blank" title="GitHub link">
-            Jaden Taylor | GitHub
-        </a> <br>
-
-
-
-    <h2 id="skills">Skills & Certifications</h2>
-    <ul>
-        <li>React Certification with Mtech</li>
-        <li>Proficient in Python, GitHub and Git Bash. Some experience in VBA C++,<br>
-            C, React.js, JavaScript, HTML, CSS, C#, Y86 Assembly and SQL</li>
-        <li>Earned Eagle Scout with Bronze Palm in BSA</li>
-    </ul>
-
-    <h2 id="work">Work Experience</h2>
-        <h3>Software Engineer - Record Linking Lab - Mar 2023-Present</h3>
-            <ul>
-                <li>Specializing in Python, I worked with large family history datasets creating and maintaining<br>
-                    functions that grow the family tree at an accelerated rate</li>
-                <li>Acquired skills in: speed optimization, GitHub, api calls,<br> 
-                    parsing JSON objects, Python functions and classes</li>
-            </ul>
-        <h3>Hardware Technician - CIT Electronics - Nov 2021-Mar 2023</h3>
-            <ul>
-                <li>Hacked into computers, erased memory, and reinstalled OS for reselling.<br>
-                    Identified software switch that increased company revenue by $5000 monthly.</li>
-                <li>Acquired skills in: bios, OS, disk partitions, work around passwords and locks,<br>
-                    able to detect and fix hardware issues, troubleshooting</li>
-            </ul>
-        <h3>Shift Manager - Jimmy John’s Restaurant - June 2017-Aug 2021</h3>
-            <ul>
-                <li>Started as part-time employee in high school, was promoted to shift manager<br>
-                    4 months after returning from a 2-year church mission</li>
-            </ul>
-
-    <h2 id="edu">Education</h2>
-        <h3>Brigham Young University, Provo UT - Expected Grad 2026</h3>
-            <ul class="getDatItalic">
-                <li>Bachelor of Information Systems, Minor in Computer Science</li>
-                <li>3.7 GPA</li>
-            </ul>
-
-    <h2 id="interests">Interests</h2>
+    <div class="common mainBody">
+        <h2 id="skills">Skills & Certifications</h2>
         <ul>
-            <li>Running, piano, singing, dance, movies, learning about Jesus,<br>
-                time with family, video games, board games, budgeting and finances</li>
+            <li>React Certification with Mtech</li>
+            <li>Proficient in Python, GitHub and Git Bash. Some experience in VBA C++,<br>
+                C, React.js, JavaScript, HTML, CSS, C#, Y86 Assembly and SQL</li>
+            <li>Earned Eagle Scout with Bronze Palm in BSA</li>
         </ul>
+
+        <h2 id="work">Work Experience</h2>
+            <h3>Software Engineer - Record Linking Lab - Mar 2023-Present</h3>
+                <ul>
+                    <li>Specializing in Python, I worked with large family history datasets creating and maintaining<br>
+                        functions that grow the family tree at an accelerated rate</li>
+                    <li>Acquired skills in: speed optimization, GitHub, api calls,<br> 
+                        parsing JSON objects, Python functions and classes</li>
+                </ul>
+            <h3>Hardware Technician - CIT Electronics - Nov 2021-Mar 2023</h3>
+                <ul>
+                    <li>Hacked into computers, erased memory, and reinstalled OS for reselling.<br>
+                        Identified software switch that increased company revenue by $5000 monthly.</li>
+                    <li>Acquired skills in: bios, OS, disk partitions, work around passwords and locks,<br>
+                        able to detect and fix hardware issues, troubleshooting</li>
+                </ul>
+            <h3>Shift Manager - Jimmy John’s Restaurant - June 2017-Aug 2021</h3>
+                <ul>
+                    <li>Started as part-time employee in high school, was promoted to shift manager<br>
+                        4 months after returning from a 2-year church mission</li>
+                </ul>
+
+        <h2 id="edu">Education</h2>
+            <h3>Brigham Young University, Provo UT - Expected Grad 2026</h3>
+                <ul class="getDatItalic">
+                    <li>Bachelor of Information Systems, Minor in Computer Science</li>
+                    <li>3.7 GPA</li>
+                </ul>
+
+        <h2 id="interests">Interests</h2>
+            <ul>
+                <li>Running, piano, singing, dance, movies, learning about Jesus,<br>
+                    time with family, video games, board games, budgeting and finances</li>
+            </ul>
+
+            
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <a href="#top">Back to top</a>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      
+    </div>
+
+    <div class="common rightMenu">
+        <h1>Jaden Taylor</h1>
+        Email: jtjadent@gmail.com <br><br>
+        Phone: 386-287-5381 <br><br>
+        Software Engineer @ <br>
+        Record Linking Lab <br><br>
+        Brigham Young <br>
+        University, Provo <br><br>
+
+    </div>
+
+    <div class="common footer">
+        <!-- Webpage info -->
+        <img alt="LinkedIn logo" src="../images/LinkedIn logo.png" width="18"> 
+            <a href="https://www.linkedin.com/in/jaden-taylor-329299213/" target="_blank" title="LinkedIn link">
+                Jaden Taylor | LinkedIn 
+            </a>
+        <img alt="Facebook logo" src="../images/Facebook logo.png" width="18"> 
+            <a href="https://www.facebook.com/jaden.taylor.982" target="_blank" title="Facebook link">
+                Jaden Taylor | Facebook
+            </a>
+        <img alt="GitHub logo" src="../images/GitHub logo.png" width="18"> 
+            <a href="https://github.com/JadenTaylor7" target="_blank" title="GitHub link">
+                Jaden Taylor | GitHub
+            </a> <br>
+    </div>
+
+
+
+
+
+
+
+
+
+
 
     <!-- <ol>
         <li>Number one
@@ -97,9 +142,6 @@
     </ol> -->
 
 
-    <p>&nbsp;</p>
-
-    <a href="#top">Back to top</a>
 </body>
 
 

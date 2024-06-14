@@ -14,8 +14,19 @@ body {
 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color:rgb(52, 184, 171)
+    color:rgb(52, 184, 171);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out; /* for growing */
 }
+a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+/* a:visited {
+    color: rgb(123, 27, 187);
+} */
 
 /* change only lists */
 li {
@@ -34,7 +45,37 @@ li {
     font-style: italic;
 }
 
+
+.getDatRainbow {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+.toYellow {
+    color: yellow;
+}
+  
+
 .rickroll {
     background-image: url('../images/rickroll.gif');
     background-position: top left;
+}
+
+
+/* These boxes demonstrate the margin, border, and padding model. 
+Margin pushes stuff away from it, padding makes it take up more space, 
+border just shows you where margin and padding meet. */
+.box1 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rebeccapurple;
+}
+.box2 {
+    padding: 5px;
+}
+.box3 {
+    margin: 20px;
 }
